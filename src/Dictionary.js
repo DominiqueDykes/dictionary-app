@@ -51,7 +51,6 @@ export default function Dictionary(props) {
             <div className="row">
               <input
                 type="search"
-                placeholder="🔍"
                 onChange={handleKeywordChange}
                 defaultValue={props.defaultKeyword}
               />
