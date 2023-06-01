@@ -1,10 +1,20 @@
 body {
-  background: white;
-  margin-top: 30px;
+  margin: 0px !important;
+  background: #efefef !important;
+  box-sizing: border-box !important;
 }
 
-a {
-  color: #9670f4;
+.App {
+  width: 100% !important;
+  max-width: 850px;
+  margin: 0 auto;
+  font-family: "Times New Roman";
+}
+
+.App h1 {
+  font-weight: 900;
+  font-size: 60px;
+  text-align: center;
 }
 
 .App-header {
@@ -12,7 +22,7 @@ a {
 }
 
 .App-logo {
-  max-width: 200px;
+  width: 200px;
   display: block;
   margin: 0 auto;
 }
@@ -20,4 +30,5 @@ a {
 .App-footer {
   text-align: center;
   margin: 30px 0;
+  font-size: 17px;
 }
